@@ -1,0 +1,76 @@
+.banner{
+    margin: 40px 0;
+}
+
+.tag-line{
+    font-size: 4.5em;
+    color: #03A9F4;
+}
+
+.content-title{
+    font-size: 1.75em;
+}
+
+.content-title:after {
+    content: " ";
+    border: 3px solid #03A9F4;
+    display: block;
+    /* margin: 0 auto; */
+    margin-top: 5px;
+    width: 140px;
+}
+
+.project{
+    border: 1px solid #607D8B;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.project-title{
+    font-size: 1.5em;    
+}
+
+.project-content{
+    font-size: 0.85em;
+}
+
+.project-skills{
+    border: 1px solid #03A9F4;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.project-title{
+    font-size: 1.5em;    
+}
+
+.project > a {
+    text-align: right;
+}
+
+
+
+/*Skills*/
+.skills-container{
+    justify-content: center;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.skill-i{
+    height: 90px;
+    margin: 16px;
+    margin-bottom: 32px;
+    width: 90px;
+    text-align:center;
+}
+
+
+
+/***Footer***/
+#foot-container{
+    background-color:#03A9F4;
+    padding: 10px;
+    color:#fff;
+}
